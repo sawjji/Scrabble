@@ -1,4 +1,4 @@
-"use strict"; // Don't touch me. This makes JS more safe.
+"use strict"; 
 
 // Here, we import the dictionary of scrabble words.
 //import { dictionary } from "./dictionary.js";
