@@ -1,0 +1,102 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(15, auto);
+	grid-gap: 1px;
+	width: 600px;
+	height: 600px;
+	padding: 1px 1px 10px 1px;
+}
+
+.grid-item {
+	height: 40px;
+	width: 40px;
+	font-size: 150%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	gap: 4px;
+	grid-auto-flow: column;
+
+}
+
+.mainColor {
+    display: grid;
+    background-color: #F8C8DC;
+	color: #FF007F;
+}
+
+.tripleWordScore_square {
+	background-color:#DA70D6;
+	color: white;
+
+}
+
+.doubleLetterScore_square {
+	background-color:#83c3e7;
+	color: white;
+
+}
+
+.doubleWordScore_square {
+	background-color:#96adf7;
+	color: white;
+
+}
+
+.tripleLetterScore_square {
+	background-color:#E37383;
+	color: white;
+} 
+
+input, select { 
+	border: 2px solid #E37383; 
+	background-color:#ffe9ec;
+	font-weight: 600;
+}
+
+button { 
+	border: 2px solid #E37383; 
+	background-color:#ffe9ec;
+	font-weight: 600;
+	color: red;
+	margin-left:117px
+}
+
+label{
+	font-weight: 600;
+}
+
+P { margin-left:55px }
+
+.rackItem {
+	height: 40px;
+	width: 40px;
+	font-size: 150%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	gap: 4px;
+	grid-auto-flow: row;
+}
+#gridRack, #gridRack2{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-gap: 1px;
+	width: 200px;
+	height: 50px;
+	padding: 1px 1px 1px 165px;
+}
+
+#turnTracker{
+	color: #FF007F;
+	font-weight: 800;
+	font-size: 20px;
+
+	padding: 0px 0px 0px 240px;
+}
+
+.txt, #txt1txt, #txt2txt{
+	color: #FF007F;
+	font-weight: 600;
+	padding: 13px;
+}
